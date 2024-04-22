@@ -13,6 +13,21 @@ This repository contains code for training a deep learning model to classify fas
 - **Training and Evaluation**: The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function. Training progress and evaluation metrics such as accuracy are logged.
 - **Visualization**: Jupyter notebooks are provided for data exploration, model training, and visualization of results.
 
+
+The classes are:
+Label	  Description
+0	     T-shirt/top
+1    	  Trouser
+2	     Pullover
+3	     Dress
+4	     Coat
+5	     Sandal
+6	     Shirt
+7	     Sneaker
+8	     Bag
+9	     Ankle boot
+
+
 1. Install dependencies:
    ```
    pip install -r requirements.txt
