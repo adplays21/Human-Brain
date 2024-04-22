@@ -13,16 +13,13 @@ This repository contains code for training a deep learning model to classify fas
 - **Training and Evaluation**: The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function. Training progress and evaluation metrics such as accuracy are logged.
 - **Visualization**: Jupyter notebooks are provided for data exploration, model training, and visualization of results.
 
-### Usage
-1. Clone the repository:
+
    ```
-   git clone https://github.com/username/fashion-mnist-classification.git
-   ```
-2. Install dependencies:
+1. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run the notebooks in the `notebooks` directory for data exploration, model training, and visualization.
+2. Run the code in the `Human Brain` directory for data exploration, model training, and visualization.
 
 ### Dataset
 The Fashion MNIST dataset used in this project can be accessed through TensorFlow's Keras API. It is a drop-in replacement for the original MNIST dataset and is commonly used for benchmarking machine learning algorithms.
