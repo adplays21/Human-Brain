@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPvvjXXbmSIXQu4GHsVwrrI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/adplays21/Human-Brain/blob/main/numpy.integ\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "09GLBZyoLHR-"
+      },
+      "outputs": [],
+      "source": [
+        "# NumPy Integration\n",
+        "# - Data Manipulation: Utilize NumPy arrays for reshaping, flattening, and normalization.\n",
+        "# - Efficient Computation: Leverage NumPy's vectorized operations for faster computation.\n",
+        "# - Compatibility: Seamlessly transfer data between TensorFlow tensors and NumPy arrays.\n",
+        "\n",
+        "import numpy as np\n",
+        "global train_images_np\n",
+        "# Data manipulation using NumPy arrays\n",
+        "train_images_np = np.array(train_images)\n",
+        "train_images_flattened = train_images_np.reshape(train_images_np.shape[0], -1)\n",
+        "train_images_normalized = train_images_flattened / 255.0  # Normalization\n",
+        "\n",
+        "# Efficient computation with NumPy\n",
+        "mean_image = np.mean(train_images_normalized, axis=0)\n",
+        "std_image = np.std(train_images_normalized, axis=0)\n",
+        "\n",
+        "# Compatibility with TensorFlow\n",
+        "train_images_tf = tf.convert_to_tensor(train_images_normalized)\n"
+      ]
+    }
+  ]
+}
