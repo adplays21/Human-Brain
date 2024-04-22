@@ -44,6 +44,7 @@ The Fashion MNIST dataset used in this project can be accessed through TensorFlo
 ### References
 - [Fashion MNIST dataset on TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist)
 - [NumPy documentation](https://numpy.org/doc/stable/index.html)
+- [Adam optimization algorithm](https://arxiv.org/abs/1412.6980)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
