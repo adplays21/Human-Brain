@@ -13,8 +13,6 @@ This repository contains code for training a deep learning model to classify fas
 - **Training and Evaluation**: The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function. Training progress and evaluation metrics such as accuracy are logged.
 - **Visualization**: Jupyter notebooks are provided for data exploration, model training, and visualization of results.
 
-
-   ```
 1. Install dependencies:
    ```
    pip install -r requirements.txt
