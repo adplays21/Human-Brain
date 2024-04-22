@@ -22,6 +22,10 @@ This repository contains code for training a deep learning model to classify fas
 ### Dataset
 The Fashion MNIST dataset used in this project can be accessed through TensorFlow's Keras API. It is a drop-in replacement for the original MNIST dataset and is commonly used for benchmarking machine learning algorithms.
 
+### References
+- [Fashion MNIST dataset on TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist)
+- [NumPy documentation](https://numpy.org/doc/stable/index.html)
+
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
