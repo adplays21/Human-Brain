@@ -1,7 +1,5 @@
 # Human-Brain
 Human Brain Detection on Fashion MNIST Dataset with TensorFlow
-Sure, here's a sample GitHub repository description for your project:
-
 ---
 
 ## Fashion MNIST Classification with TensorFlow
@@ -33,12 +31,9 @@ The Fashion MNIST dataset used in this project can be accessed through TensorFlo
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Contributors
-- John Doe (@johndoe)
-- Jane Smith (@janesmith)
+- Adan Bari
 
 ### Contact
-For questions or feedback, please contact us at example@example.com.
+For questions or feedback, please contact me at adanbari444@gmail.com.
 
 --- 
-
-Feel free to customize this description according to your project details and preferences.
